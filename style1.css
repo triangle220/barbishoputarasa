@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+
+    font-family: sans-serif, arial;
+}
+.b1 {
+    height: 60px;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+}
+.b2 {
+    width: 50%;
+    height: 60px;
+    background-color: rgb(29, 29, 29);
+    margin: 0 auto;
+}
+.knopki{
+    float: right;
+    color: white;
+    list-style: none;
+    padding: 20px 20px 20px 20px;
+}
+.b3{
+    background-image: url(bg.jpg);
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+}
+.t1 {
+    padding-top: 150px;
+    color: white;
+}
+.i1{
+    float: left;
+    margin: 18px;
+    
+}
+.b5, .b6, .b7, .b8{
+    width: 50%;
+    float: left;
+}
+.b5{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.b8{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.b6 {
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+.b7{
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+.b6 {
+    background-image: url(gallery-1.png);
+    height: 300px;
+    background-size: cover;
+}
+.b4{
+    width: 50%;
+    margin: 0 auto;
+    background-size: contain;
+}
+.t2, .t3 {
+    padding-top: 80px;
+}
+.b8 {
+    background-image: url(gallery-2.jpg);
+    height: 300px;
+    background-size: cover;
+    float: left;
+}
+.but1, .but2 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 18px;
+}
+.t4, .t5{
+    padding-top: 30px;
+    padding-left: 50px;
+    float: left;
+}
+
+.but2 {
+    margin-left: 150px;
+}
+.b9 {
+    width: 50%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: rgb(172, 172, 172);
+}
+.b10{
+    width: 100%;
+    background-size: contain;
+    float: left;
+    height: 300px;
+    background-color: rgb(172, 172, 172);
+    padding-top: 40px;
+}
+.tt4{
+    float: left;
+    width: 200px;
+    padding-top: 40px;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.tt1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.a1{
+    font-size: 25px;
+    color: white;
+}
+.tt2{
+    font-size: 17px;
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 50px;
+    float: left;
+}
+.a2{
+    font-size: 25px;
+    color: white;
+}
+.tt3{
+    width: 200px;
+    font-size: 17px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.b11{
+    width: 50%;
+    margin: 0 auto;
+    height: 70px;
+    background-color: rgb(29, 29, 29);
+}
+.b11{
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    height: 75px;
+    float: left;
+}
+.b12{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    height: 75px;
+}
+.u2{
+    list-style: none;
+    color: white;
+    width: 200px;
+}
+.l1{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.window{
+    width: 450px;
+    height: 220px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+}
+.bi{
+    float: right;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.v1{
+    position: absolute;
+    right: 180px;
+    top: 40px;
+}
+.inp1{
+    position: absolute;
+    right: 145px;
+    top: 60px;
+    border-radius: 5px;
+    background-color: rgb(48, 47, 47);
+    border: 1px solid rgb(29, 29, 29) ;
+    color: white;
+}
+.v2{
+    right: 165px;
+    top: 100px;
+    position: absolute;
+}
+.inp2{
+    position: absolute;
+    right: 145px;
+    top: 120px;
+    border-radius: 5px;
+    background-color: rgb(48, 47, 47);
+    border: 1px solid rgb(29, 29, 29) ;
+    color: white;
+}
+.bt1{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    bottom: 20px;
+    right: 140px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(29, 29, 29) ;
+    font-size: 15px;
+}
+.bt1:hover{
+    background-color: rgb(48, 47, 47);
+}
+.l{
+color: white;
+text-decoration: none;
+}
+.window1{
+    width: 450px;
+    height: 220px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+}
+.v3{
+    position: absolute;
+    right: 145px;
+    top: 10px;
+    font-size: 20px;
+}
+.v4{
+    position: absolute;
+    right: 135px;
+    top: 10px;
+    font-size: 20px;
+}
